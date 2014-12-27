@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+*:not(.parallax-mirror){
+	box-sizing:border-box;
+	font-family:'Lato',sans-serif;
+	font-smoothing:antialiased;
+	-webkit-font-smoothing:antialiased;
+	color:white;
+}
+
+body{
+	background:#000000;
+	padding: 0px;
+	margin: 0px;
+	margin-top:70px;
+}
+
+.container{
+	max-width: 980px;
+	margin:0 auto;
+	padding: 0px 20px;
+}
+
+.parallax-window{
+	height: 500px;
+	margin-bottom:50px;
+}
+
+.parallax-window h1{
+	background: white;
+	color: black;
+	padding: 15px;
+	font-size: 50px;
+	display: inline-block;
+	margin-top: 380px;
+}
+header{
+	height: 100px;
+	background: black;
+	width: 100%;
+	/* position: fixed; */
+	margin-top:-70px;
+	top:0px;
+	z-index: 100;
+}
+
+nav ul {
+	margin-top:40px;
+	list-style: none;
+}
+
+nav ul li{
+	float:left;
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 20px 10px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+nav ul li.current-menu-item a, nav ul li a:hover{
+	background: white;
+	color:black;
+}
+
+.logo {
+	float:left;
+	margin-top:15px;
+	margin-right:50px;
+}
